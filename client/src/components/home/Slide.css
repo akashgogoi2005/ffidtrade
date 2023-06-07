@@ -1,0 +1,132 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;700;900&family=Raleway:wght@100;300;500;700&display=swap'); */
+
+:root{
+    --bodyBack: #ffeaed;
+    --textColor: #1b2741;
+    --starColor: #8c00ff;
+    --sectionBack: #f7f6f9;
+}
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+} */
+.newbody{
+    background-color: var(--bodyBack);
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.fas {
+    margin-right: 8px;
+}
+
+.containernew{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.header{
+    width: 100%;
+    text-align: center;
+}
+.header h1{
+    font-size: 4em;
+    text-transform: uppercase;
+    color: var(--textColor);
+}
+.products{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.product{
+    position: relative;
+    background-color: var(--sectionBack);
+    width: 350px;
+    height: 100%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20px 40px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.product:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    background: linear-gradient(45deg, #76399e 25%, #643293 25%, #4c3293 50%, #6a38df 50%, #76399e 75%, #743293 75%, #673293);
+}
+.image{
+    width: 100%;
+    height: 60%;
+    display: grid;
+    place-items: center;
+}
+.image img{
+    width: 240px;
+    border-radius: 8px;
+}
+.namePrice{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.namePrice h3{
+    font-size: 2em;
+    text-transform: capitalize;
+    color: var(--starColor);
+}
+.namePrice span{
+    font-size: 1.5em;
+    color: var(--starColor);
+}
+.product p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.stars svg{
+    font-size: 1.3em;
+    color: var(--starColor);
+}
+.buy{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.buy button{
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: none;
+    /* background-color: var(--textColor); */
+    background-color: #00ba63;
+    color: var(--sectionBack);
+    font-size: 18px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: .5s;
+}
+.buy button:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+/* @media (max-width: 880px) {
+
+    .container{
+        width: 130vw;
+    }
+
+} */

@@ -1,0 +1,22 @@
+
+
+
+.home_section{
+    width: 100%;
+    position: relative;
+    top: 60px;
+    /* background-color: #e7e7e7; */
+    /* background-image: linear-gradient(to bottom, #e7e7e7, #02d9ff); */
+    background: linear-gradient(45deg, #76399e 25%, #643293 25%, #4c3293 50%, #6a38df 50%, #76399e 75%, #743293 75%, #673293);
+    min-height: calc(100vh - 60px);
+    border-bottom: 2px solid rgb(199, 199, 199);
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+

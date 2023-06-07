@@ -1,0 +1,268 @@
+section {
+    position: relative;
+    width: 100%;
+    top: 60px;
+    min-height: 100vh;
+    z-index: 1;
+    /* background-color: #74329349; */
+    background: linear-gradient(to bottom, #426a79, #3e2c75);
+    margin-top: -60px;
+}
+
+.sign_container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign_header img {
+    width: 200px;
+    /* margin-top: -40px; */
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 60px;
+}
+
+.sign_form {
+    border: 1px solid #583269;
+    padding: 60px 30px;
+    margin-top: -50px;
+    border-radius: 20px;
+    background: linear-gradient(45deg, #76399e 25%, #643293 25%, #4c3293 50%, #6a38df 50%, #76399e 75%, #743293 75%, #673293);
+    box-shadow: 0 19px 38px rgba(0, 172, 172, 0.3), 0 15px 12px rgba(0, 172, 172, 0.3);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.sign_form:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+.sign_form h1 {
+    font-weight: 500;
+    font-size: 27px;
+    margin: 10px 0;
+}
+
+.sign_form label {
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 1px;
+}
+
+.sign_form input {
+    width: 100%;
+    height: 27px;
+    /* padding: 3px 7px; */
+    border-radius: 99px;
+    outline: none;
+    border: 1px solid #a6a6a6;
+    margin-bottom: 10px;
+    margin-top: 1px;
+}
+
+.sign_form .signin_btn {
+    margin-top: 7px;
+    margin-bottom: 23px;
+    width: 100%;
+    background: #ffb700;
+    cursor: pointer;
+    border: 1px solid #da1b8a;
+    height: 29px;
+    outline: none;
+    border-radius: 99px;
+    color: #ffffff;
+    /* font-weight: bolder; */
+    /* background: linear-gradient(to bottom, #f7dfa5, #f0c14b) */
+    /* background: linear-gradient(45deg, #76399e 25%, #643293 25%, #4c3293 50%, #6a38df 50%, #76399e 75%, #743293 75%, #673293);    */
+}
+
+.sign_form .signin_btn:hover{
+    background: rgb(238, 222, 0);
+    color: #3b3b3b;
+    font-weight: 700;
+    
+}
+
+
+.sign_form input:focus {
+    box-shadow: 0 0 5px 0px #ffbc2c;
+}
+
+.sign_form .signin_info {
+    margin-top: 23px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.sign_form .signin_info p {
+    font-size: 13px;
+    font-weight: 600;
+    color: #222;
+}
+
+
+.sign_form .signin_info a {
+    font-size: 13px;
+    letter-spacing: .5px;
+    margin-left: 5px;
+    color: #0066c0;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+/* for login page */
+.create_accountinfo p {
+    font-size: 12px;
+    text-align: center;
+    color: #767676;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.create_accountinfo button {
+    background-image: linear-gradient(to right, #ff5050, #76399e);
+    height: 33px;
+    width: 300px;
+    border-radius: 99px;
+    border: 1px solid #adb1b8;
+    outline: none;
+    margin-top: 15px;
+    color: #ddd;
+    font-family: monospace;
+    box-shadow: 0 19px 38px rgba(0, 172, 172, 0.3), 0 15px 12px rgba(214, 0, 0, 0.22);
+}
+
+.create_accountinfo button:hover{
+    background-image: linear-gradient(to left, #ff5050, #76399e);
+    cursor: pointer;
+}
+
+.create_accountinfo a {
+    text-decoration: none;
+    color: #111;
+    padding: 10px 35px;
+    letter-spacing: .5px;
+}
+
+
+
+
+
+.custom-datepicker .MuiInputBase-root {
+    /* Styles for the root element of the input */
+    /* Example styles: */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* padding: 2px; */
+    padding-top: -20px;
+    padding-bottom: -20px;
+  }
+  
+  .custom-datepicker .MuiInputBase-input {
+    /* Styles for the input element */
+    /* Example styles: */
+    color: #ffffff;
+    border: none;
+  }
+  
+  .custom-datepicker .MuiInputAdornment-root button {
+    /* Styles for the calendar icon button */
+    /* Example styles: */
+    background-color: #00ff0d;
+    border: none;
+    border-radius: 50%;
+    /* padding: 4px; */
+  }
+
+  ::after.custom-datepicker .MuiInputBase-input {
+    border: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.outer-headings {
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    padding-top: 180px;
+    z-index: -1;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.inner-headings {
+    border: 0px solid #ddd;
+    height: 50px;
+    line-height: 50px;
+    font-size: 45px;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.inner-headings span {
+    position: relative;
+    color: crimson;
+    animation: animation 10s ease infinite;
+}
+
+@keyframes animation {
+
+    0%,
+    100% {
+        top: 0;
+    }
+
+    20% {
+        top: 0;
+    }
+
+    25% {
+        top: -50px;
+    }
+
+    45% {
+        top: -50px;
+    }
+
+    50% {
+        top: -100px;
+    }
+
+    70% {
+        top: -100px;
+    }
+
+    75% {
+        top: -150px;
+    }
+
+    95% {
+        top: -150px;
+    }
+}
